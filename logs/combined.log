@@ -1,2 +1,26 @@
 {"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [11/Mar/2026:15:35:08 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:20:49 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:20:49 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:42:49 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:42:52 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:43:13 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:43:28 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:44:39 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:12:46:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:13:44 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:16:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:19:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"用户成功通过邮箱: mygo@mujigo.com 注册","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:19:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 99 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"用户 mygo@mujigo.com 成功创建","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: mygo@mujigo.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:43:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"error","message":"创建用户时出错: Error: User with this email already exists","service":"acquisitions-api"}
+{"level":"error","message":"注册失败 User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///D:/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/DevOps/acquisitions/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///D:/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/DevOps/acquisitions/src/controllers/auth.controller.js:22:18)"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:44:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
+{"level":"info","message":"用户 cyinc@mujigo.com 成功创建","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: cyinc@mujigo.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [13/Mar/2026:13:44:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api"}
