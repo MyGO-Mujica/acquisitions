@@ -29,7 +29,7 @@ export const signup = async (req, res, next) => {
 
     cookies.set(res, 'token', token);
 
-    logger.info(`用户${user.name}成功通过 ${email} 注册`);
+    logger.info(`用户 ${user.name} 成功通过 ${email} 注册`);
     res.status(201).json({
       message: 'User registered',
       user: {
