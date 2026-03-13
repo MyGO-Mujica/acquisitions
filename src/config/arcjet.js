@@ -6,7 +6,12 @@ const aj = arcjet({
     shield({ mode: 'LIVE' }),
     detectBot({
       mode: 'LIVE',
-      allow: ['CATEGORY:SEARCH_ENGINE', 'CATEGORY:PREVIEW'],
+      allow: [
+        'CATEGORY:SEARCH_ENGINE',
+        'CATEGORY:PREVIEW',
+        // 允许开发和测试工具（例如 Postman, Curl 等）访问
+        'CATEGORY:TOOL',
+      ],
     }),
     slidingWindow({
       mode: 'LIVE',
