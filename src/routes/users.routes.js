@@ -13,7 +13,7 @@ const router = express.Router();
 router.get('/', authenticateToken, fetchAllUsers);
 
 // GET /users/:id - Get user by ID (authenticated users only)
-router.get('/:id', authenticateToken,requireRole(['admin']), fetchUserById);
+router.get('/:id', authenticateToken, requireRole(['admin']), fetchUserById);
 
 // PUT /users/:id - Update user by ID (authenticated users can update own profile, admin can update any)
 router.put('/:id', authenticateToken, updateUserById);

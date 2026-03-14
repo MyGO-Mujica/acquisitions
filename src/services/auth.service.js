@@ -22,7 +22,6 @@ export const comparePassword = async (password, hashedPassword) => {
   }
 };
 
-
 export const createUser = async ({ name, email, password, role = 'user' }) => {
   try {
     const existingUser = await db
